@@ -23,3 +23,8 @@ This repo aims to achieve creating an AMI with root device encrypted using Terra
 3. Launch an EC2 instance
 4. Create AMI from instance using [aws_ami_from_instance](https://www.terraform.io/docs/providers/aws/r/ami_from_instance.html)
 5. Copy AMI encrypting using the KMS key created using [aws_ami_copy](https://www.terraform.io/docs/providers/aws/r/ami_copy.html)
+
+
+# Links
+
+* [AWS Blog: Encrypted EBS Boot Volumes using aws cli](https://aws.amazon.com/blogs/aws/new-encrypted-ebs-boot-volumes/)
