@@ -7,3 +7,12 @@ AMI create a new AMI with encrypted devices, see [AMIs with Encrypted Snapshots|
 
 
 This repo aims to achieve creating an AMI with root device encrypted using Terraform.
+
+
+# Requirements
+
+* AWS CLI
+* Terraform
+* Pair of SSH keys (not mandatory, existent key on AWS can be used)
+* Original AMI (CentOS 7 was used, but other linux images can be used)
+
